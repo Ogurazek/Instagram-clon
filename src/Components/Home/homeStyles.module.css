@@ -1,0 +1,57 @@
+
+
+
+.containerHome {
+    margin-left: 245px; 
+    width: 750px;
+    height: auto;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.home_header {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.containerCardHistory {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: 2px solid green;
+    overflow: hidden;
+    
+
+}
+
+.containerCardHistory_article {
+    height: 100px;
+    margin: 0 10px;
+    width: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.containerCardHistory img {
+    width: 59px;
+    height: 59px;
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+.containerCardHistory_article strong {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
