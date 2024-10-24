@@ -1,0 +1,131 @@
+.article_container {
+    width: 500px;
+    height: auto;
+    max-height: 800px;
+    border-bottom: 1px solid #262626;
+    margin-bottom: 12px;
+    overflow: hidden;
+    
+}
+
+.header_profile {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.header_profile span {
+    font-size: 16px;
+}
+
+.section_img_profile {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+   
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section_img_profile img {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 2px solid green;
+    
+}
+
+.section_img_profile strong {
+    font-size: 14px;
+}
+
+
+
+.section_image_post {
+    width: 500px;
+    min-height: 500px;
+    border-radius: 4px;
+    border: solid 1px  #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+
+.section_image_post img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.section_icons_navigation {
+    width: 500px;
+    /* background-color: aqua; */
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.section_icons_navigation img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+}
+
+.section_icons_navigation_imagen {
+    width: 250px;
+    height: 100%;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+
+}
+
+.section_icons_navigation_imagen img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+
+}
+
+.section_icons_navigation_imagen img:hover, .section_icons_navigation img:hover {
+    transform: translateY(-2px) scale(1.1)
+}
+
+.div_numberOfLikes {
+    width: 500px;
+    height: 25px;
+    overflow: hidden;
+    margin: 4px 0;
+}
+
+.div_numberOfLikes span {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.div_description {
+    width: 500px;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.div_description p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
