@@ -2,14 +2,21 @@
 
 
 .containerHome {
-    margin-left: 245px; 
+    margin-left:260px; 
     width: 750px;
     height: auto;
     min-height: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 32px;
 
+}
+
+@media (max-width: 1280px) {
+    .containerHome {
+        width: 725px; 
+    }
 }
 
 .home_header {
@@ -54,4 +61,5 @@
     margin: 0;
     padding: 0;
     font-size: 12px;
+    font-weight: 500px;
 }
