@@ -21,6 +21,7 @@ export function Home() {
             imagePost="/Icons/Profile Image.jpg"
             numberOfLikes="200"
             description="Estoy buscando un nuevo laburo, ayuda..."
+            hours="4"
             />
             <Card
             name="Lionel Messi"
@@ -28,6 +29,16 @@ export function Home() {
             imagePost="https://cdn.motor1.com/images/mgl/1ZQwYp/s3/hennessey-chevrolet-camaro-zl1-exorcist-final-edition.jpg"
             numberOfLikes="23123.213012313.123"
             description="Miren el auto chavales que me compre, ni CR7 se animo a tanto.. Boee chicos, así esta messi?"
+            hours="9"
+            />
+            <Card
+            name="Lionel Messi"
+            profileImage="https://img.olympics.com/images/image/private/t_1-1_300/f_auto/v1687307644/primary/cqxzrctscdr8x47rly1g"
+            imagePost="https://cdn.motor1.com/images/mgl/1ZQwYp/s3/hennessey-chevrolet-camaro-zl1-exorcist-final-edition.jpg"
+            numberOfLikes="23123.213012313.123"
+            description="Miren el auto chavales que me compre, ni CR7 se animo a tanto.. Boee chicos, así esta messi?
+            Miren el auto chavales que me compre, ni CR7 se animo a tanto.. Boee chicos, así esta messi?"
+            hours="24"
             />
         </main>
         </>

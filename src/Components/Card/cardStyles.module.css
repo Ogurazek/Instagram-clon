@@ -43,6 +43,12 @@
 
 .section_img_profile strong {
     font-size: 14px;
+    font-weight: 550;
+}
+.section_img_profile span {
+    font-size: 14px;
+    color: #A5A5A5;
+    font-weight: 300;
 }
 
 

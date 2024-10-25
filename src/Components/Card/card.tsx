@@ -7,16 +7,17 @@ type CardProps = {
     imagePost: string, 
     numberOfLikes: string, 
     description: string;
+    hours: string;
 }
 
 
-export default function Card({ profileImage, name, imagePost, numberOfLikes, description }: CardProps) {
+export default function Card({ profileImage, name, imagePost, numberOfLikes, description, hours }: CardProps) {
     return(
         <>
         <article className={styles.article_container}>
             <header className={styles.header_profile}>
                 <section className={styles.section_img_profile}><img src={profileImage} alt="nada" />
-                <strong>{name}</strong>
+                <strong>{name}<span>&nbsp;•&nbsp;{hours}&nbsp;h</span></strong>
                 </section>
                 <span>...</span> {/*Se me hace innecesario configurarlo porque no le voy a dar utilidad*/}
             </header>
@@ -30,12 +31,11 @@ export default function Card({ profileImage, name, imagePost, numberOfLikes, des
                 <img src="/Icons/Icon Saved.svg" alt="" />
             </section>
                 <div className={styles.div_numberOfLikes}>
-                    <span>{numberOfLikes} Me gusta</span>
+                    <span>{numberOfLikes}&nbsp;Me gusta</span>
                 </div>
                 <div className={styles.div_description}>
                     <p><strong>{name}&nbsp;&nbsp;</strong>{description}</p>
                 </div>
-            
         </article>
         </>
             )    
