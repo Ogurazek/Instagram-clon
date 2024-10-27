@@ -48,6 +48,7 @@
 
 }
 
+
 .nav_container img {
     width: 24px;
     height: 24px;
@@ -74,6 +75,11 @@
 }
 
 @media (max-width: 1280px) {
+    .section_menu {
+        display: none;
+    }
+}
+@media (max-height: 600px) {
     .section_menu {
         display: none;
     }
