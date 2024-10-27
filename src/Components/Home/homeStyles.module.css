@@ -28,13 +28,19 @@
 }
 
 .containerCardHistory {
-    height: 60px;
-    width: 60px;
-    border-radius: 50px;
-    border: 2px solid green;
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), 
+                      linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #f30ed4, #aa5aec);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
     overflow: hidden;
-    
-
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;  
 }
 
 .containerCardHistory_article {
@@ -46,20 +52,27 @@
     align-items: center;
     flex-direction: column;
     
+    
 }
 
 .containerCardHistory img {
-    width: 59px;
-    height: 59px;
+    width: 58px;
+    height: 58px;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 50%;
     cursor: pointer;
-    margin-bottom: 3px;
+    border: 2px solid transparent;
+    overflow: hidden;
+}
+
+.containerCardHistory:hover {
+    transform: translateY(-2px) scale(1.1);
 }
 
 .containerCardHistory_article strong {
     margin: 0;
     padding: 0;
     font-size: 12px;
-    font-weight: 500px;
+    font-weight: 400px;
 }
+

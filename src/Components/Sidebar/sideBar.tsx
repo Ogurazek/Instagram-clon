@@ -16,7 +16,7 @@ export function SideBar () {
             <ButtonNavigation name="Reels" icon="/Icons/Icons Reels.svg"/>
             <ButtonNavigation name="Perfil" icon="/Icons/Profile Image.jpg"/>
             <section className={styles.section_menu}>
-                <ButtonNavigation name="Menú" icon="/Icons/Icon Menu.svg"/>
+                <ButtonNavigation name="Más" icon="/Icons/Icon Menu.svg"/>
             </section>
             </div>
             
