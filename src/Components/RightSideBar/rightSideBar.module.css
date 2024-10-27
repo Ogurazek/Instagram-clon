@@ -104,12 +104,17 @@ a:hover {
 .container_footer p{
     margin: 0;
     color: #A5A5A5;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 
 @media (max-width: 1280px) {
     .container_art_main {
         width: 260px;
+    }
+}
+@media (max-width: 1200px) {
+    .container_art_main {
+        display: none;
     }
 }

@@ -52,6 +52,7 @@
     width: 24px;
     height: 24px;
 }
+
 .icon_img {
     width: 30px;
     gap: 16px;
@@ -70,4 +71,15 @@
     position: absolute;
     bottom: 0;
     left: 0
+}
+
+@media (max-width: 1280px) {
+    .section_menu {
+        display: none;
+    }
+}
+@media (max-width: 1000px) {
+    .container_div_main {
+        display: none;
+    }
 }
