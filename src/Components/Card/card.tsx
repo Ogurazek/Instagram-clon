@@ -6,18 +6,19 @@ type CardProps = {
     name: string, 
     imagePost: string, 
     numberOfLikes: string, 
-    description: string;
-    hours: string;
+    description: string,
+    hours: number,
+    verify?: string,
 }
 
 
-export default function Card({ profileImage, name, imagePost, numberOfLikes, description, hours }: CardProps) {
+export default function Card({ profileImage, name, imagePost, numberOfLikes, description, hours, verify }: CardProps) {
     return(
         <>
         <article className={styles.article_container}>
             <header className={styles.header_profile}>
-                <section className={styles.section_img_profile}><img src={profileImage} alt="nada" />
-                <strong>{name}<span>&nbsp;•&nbsp;{hours}&nbsp;h</span></strong>
+                <section className={styles.section_img_profile}><img className={styles.section_img_profile_img} src={profileImage} alt="nada" />
+                <strong className={styles.section_strong}>{name}<img src={verify}/><span>&nbsp;•&nbsp;{hours}&nbsp;h</span></strong>
                 </section>
                 <span>...</span> {/*Se me hace innecesario configurarlo porque no le voy a dar utilidad*/}
             </header>
@@ -40,3 +41,5 @@ export default function Card({ profileImage, name, imagePost, numberOfLikes, des
         </>
             )    
     }
+
+
