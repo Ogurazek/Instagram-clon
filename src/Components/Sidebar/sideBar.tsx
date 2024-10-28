@@ -12,7 +12,7 @@ export function SideBar () {
             <ButtonNavigation name="Buscar" icon="/Icons/Icon Search.svg"/>
             <ButtonNavigation name="Favoritos" icon="/Icons/Icon Favourite.svg"/>
             <ButtonNavigation name="Mensajes" icon="/Icons/Icon Messanger.svg"/>
-            <ButtonNavigation name="Explorar" icon="/Icons/Icon more.svg"/>
+            <ButtonNavigation name="Crear" icon="/Icons/Icon more.svg"/>
             <ButtonNavigation name="Reels" icon="/Icons/Icons Reels.svg"/>
             <ButtonNavigation name="Perfil" icon="/Icons/Profile Image.jpg"/>
             <section className={styles.section_menu}>
