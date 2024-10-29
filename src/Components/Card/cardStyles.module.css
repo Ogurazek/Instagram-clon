@@ -27,13 +27,18 @@
     display: flex;
     align-items: center;
     gap: 6px;
-    
-   
     overflow: hidden;
-    text-overflow: ellipsis;
+
+    
+    
+}
+.section_strong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.section_img_profile img {
+.section_img_profile_img {
     width: 42px;
     height: 42px;
     object-fit: cover;
@@ -41,6 +46,7 @@
     overflow: hidden;
     padding: 2px;
     border: 1.5px solid black;
+    
     
 }
 
@@ -53,6 +59,9 @@
     color: #A5A5A5;
     font-weight: 300;
 }
+
+
+
 
 
 
