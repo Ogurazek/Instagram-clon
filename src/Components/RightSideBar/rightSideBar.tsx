@@ -87,7 +87,7 @@ const suggestions = [
         username:"kristenstewart",
         subInfo: "Seguir",
         verify: "/Icons/Icon Verify.svg",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFgVMvfNYLBOkKTMA4GC1ZSBjOivESgcV2JA&s",
+        img: "https://th.bing.com/th/id/OIP.sBUriZ95eCyDFn3JHsGamgHaLH?rs=1&pid=ImgDetMain",
     },
     {
         id: "3",

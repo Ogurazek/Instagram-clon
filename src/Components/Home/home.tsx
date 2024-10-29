@@ -4,6 +4,7 @@ import { useState } from "react";
 
 interface CardInfo {
   title: string;
+  img: string;
 }
 interface HomeProps {
   actualizarEstado: (NewState: boolean) => void; 
@@ -11,7 +12,7 @@ interface HomeProps {
 }
 export function Home({ actualizarEstado }: HomeProps) {
   // 1 - Estado para guardar la información de la tarjeta seleccionada
-  const [selectedCardInfo, setSelectedCardInfo] = useState<{ title: string; } | null>(null);
+  const [selectedCardInfo, setSelectedCardInfo] = useState<{ title: string; img: string } | null>(null);
 
   // 2 - Función para guardar la información en el estado
   const handleCardClick = (info: CardInfo) => {
@@ -21,11 +22,11 @@ export function Home({ actualizarEstado }: HomeProps) {
 
   return (
     <>
-        
+        {!selectedCardInfo && 
       <main className={styles.containerHome}>
         <header className={styles.home_header}>
           {/* Muestra las tarjetas solo si no hay tarjeta seleccionada */}
-          {!selectedCardInfo && stories.map(story => (
+          {stories.map(story => (
             <CardHistory 
               key={story.id} 
               title={story.title} 
@@ -52,17 +53,32 @@ export function Home({ actualizarEstado }: HomeProps) {
         </>
         }
 
+        </main>
+          }
         {/* Muestra la información de la tarjeta seleccionada */}
         {selectedCardInfo && (
-          <div className="card-info">
-            <h2>{selectedCardInfo.title}</h2>
-            <button onClick={() => {
+          <article className={styles.history_container}>
+            <div className={styles.history_container_div}><img src="/Icons/Instagram.svg" alt="Instagram" onClick={() => {
               setSelectedCardInfo(null); // Resetea la tarjeta seleccionada
               actualizarEstado(false); // Oculta la información de la tarjeta
-            }}>Ir para atrás</button>
-          </div>
+            }}/></div>
+            <article className={styles.img_container_history} style={{  backgroundImage: `url(${selectedCardInfo.img})`}}>
+              <header className={styles.header_history}>
+                <div className={styles.header_line_time_1}></div>
+                <div className={styles.header_line_time_2}></div>
+              </header>
+              <section className={styles.section_info_history}>
+                <img className={styles.nav_info_history_img1} src={selectedCardInfo.img} alt="" />
+                  <span>{selectedCardInfo.title}&nbsp;•&nbsp;</span>
+                  <img className={styles.nav_info_history_img2} src="/Icons/Icon Three Points.svg" alt="" />
+              </section>
+            </article>
+            <div><button onClick={() => {
+              setSelectedCardInfo(null); // Resetea la tarjeta seleccionada
+              actualizarEstado(false); // Oculta la información de la tarjeta
+            }}><img className={styles.nav_out_img} src="/Icons/Icon X.svg" alt="" /></button></div>
+          </article>
         )}
-      </main>
 
     </>
   );
