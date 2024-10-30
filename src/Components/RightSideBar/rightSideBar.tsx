@@ -21,6 +21,7 @@ export function RightSideBar() {
             <article className={styles.container_suggestions}>
             {suggestions.map(suggestion => (
                 <CardItem
+                key={suggestion.id}
                 img={suggestion.img}
                 name={suggestion.name}
                 username={suggestion.username}
