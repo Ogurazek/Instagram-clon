@@ -1,0 +1,23 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.section_img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.section_img img {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    font-size: 20px;
+}
