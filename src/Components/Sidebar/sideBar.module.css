@@ -74,7 +74,7 @@
     left: 0
 }
 
-@media (max-width: 1128px) {
+@media (max-height: 590px) {
     .section_menu {
         display: none;
     }

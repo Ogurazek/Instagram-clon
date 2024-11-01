@@ -2,6 +2,8 @@ import styles from "./homeStyles.module.css";
 import Card from "../Card/card";
 import { useState } from "react";
 import { Footer } from "../Footer/footer";
+import { CreatePost } from "../CreatePost/createPost";
+
 
 interface CardInfo {
   title: string;
@@ -11,12 +13,14 @@ interface CardInfo {
 }
 interface HomeProps {
   actualizarEstado: (NewState: boolean) => void; 
+  actualizarEstadoModal: (NewState: boolean) => void; 
+  EstadoModal: boolean; 
 
 }
-export function Home({ actualizarEstado }: HomeProps) {
+export function Home({ actualizarEstado, EstadoModal, actualizarEstadoModal }: HomeProps) {
   // 1 - Estado para guardar la información de la tarjeta seleccionada
   const [selectedCardInfo, setSelectedCardInfo] = useState<CardInfo | null>(null);
-  
+
   // 2 - Función para guardar la información en el estado
   const handleCardClick = (info: CardInfo) => {
     setSelectedCardInfo(info);
@@ -26,6 +30,11 @@ export function Home({ actualizarEstado }: HomeProps) {
     setSelectedCardInfo(null); // Resetea la tarjeta seleccionada
     actualizarEstado(false); // Oculta la información de la tarjeta // Muestra la información de la tarjeta
   };
+
+  const handleClickCloseModal = () => {
+    actualizarEstadoModal(false)    
+  }
+
 
   return (
     <>
@@ -91,7 +100,8 @@ export function Home({ actualizarEstado }: HomeProps) {
             <div className={styles.button_x}><button onClick={handleCardClickClose}><img className={styles.nav_out_img} src="/Icons/Icon X.svg" alt="Salir" /></button></div>
           </article>
         )}
-
+          {EstadoModal ? <CreatePost onClick={handleClickCloseModal}/> : ""}
+          
     </>
   );
 }
@@ -123,7 +133,7 @@ const stories = [
     { id: '2',
       title: 'Capítulo 1',
       img: '/img/Logo Historia 2.png',
-      background: "https://scontent.fcnq2-1.fna.fbcdn.net/v/t39.30808-6/417121172_2533256406875649_4157780593792047600_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEQUwCHNGP20cH9ov5RypC2jjN1FqiNz9eOM3UWqI3P19fWI5o8_q2eQJzUb1rHS0E5eEoYSBmonowUT7K7vpFm&_nc_ohc=dTBi2MBpCbkQ7kNvgFivENF&_nc_zt=23&_nc_ht=scontent.fcnq2-1.fna&_nc_gid=A_VbF7a5vs-Vsa1Oao8qh_x&oh=00_AYAizRhcpQrikLMDjr5U4b24BGYpuY1F4Tlm5jFJQMWF6A&oe=67223A43",
+      background: "https://media.tenor.com/2l4-h42qnmcAAAAj/toothless-dancing-toothless.gif",
       hours: '3',
      },
     { id: '3',

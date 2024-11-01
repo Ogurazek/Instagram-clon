@@ -8,6 +8,7 @@ import { SectionHome } from "./Components/SectionButton/sectionButton";
 function App() {
   const [showInfoCard, setShowInfoCard] = useState(false);
   const [showHome, setShowHome] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   
   const updateState = (state: boolean) => {
     setShowInfoCard(state);
@@ -15,13 +16,21 @@ function App() {
   const updateStateHome = (state: boolean) => {
     setShowHome(state);
   };
+  const updateShowModal = (state: boolean) => {
+    setShowModal(state);
+  };
 
   return (
     <>
-      <div style={{ display: 'flex' }}>
-        {!showInfoCard && <SideBar actualizarEstadoHome={updateStateHome} />}
+      <div style={{ display: 'flex', overflow: 'hidden'}}>
+        {!showInfoCard && <SideBar actualizarEstadoHome={updateStateHome} actualizarEstadoModal={updateShowModal}/>}
         
-        {showHome ? <SectionHome /> : <Home actualizarEstado={updateState}/>}
+        {showHome ? <SectionHome /> : 
+        <Home 
+        actualizarEstado={updateState} 
+        EstadoModal={showModal} 
+        actualizarEstadoModal={updateShowModal}
+        />}
         
         {!showInfoCard && !showHome && <RightSideBar />}
       </div>
