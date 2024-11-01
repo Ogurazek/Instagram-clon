@@ -3,14 +3,19 @@ import styles from "./sideBar.module.css"
 
 interface sideBarProps {
     actualizarEstadoHome: (NewState: boolean) => void;
+    actualizarEstadoModal: (NewState: boolean) => void;
 }
 
-export function SideBar ({ actualizarEstadoHome }: sideBarProps) {
+export function SideBar ({ actualizarEstadoHome, actualizarEstadoModal }: sideBarProps) {
 
     const handleClick = () => {
         actualizarEstadoHome(true)
     }
     const handleClickComeBack = () => {
+        actualizarEstadoHome(false)
+    }
+    const handleClickModal = () => {
+        actualizarEstadoModal(true)
         actualizarEstadoHome(false)
     }
    
@@ -26,7 +31,7 @@ export function SideBar ({ actualizarEstadoHome }: sideBarProps) {
             <ButtonNavigation name="Reels" icon="/Icons/Icons Reels.svg" OnClick={handleClick}/>
             <ButtonNavigation name="Mensajes" icon="/Icons/Icon Messanger.svg" OnClick={handleClick}/>
             <ButtonNavigation name="Notificaciones" icon="/Icons/Icon Favourite.svg" OnClick={handleClick}/>
-            <ButtonNavigation name="Crear" icon="/Icons/Icon more.svg" OnClick={handleClick}/>
+            <ButtonNavigation name="Crear" icon="/Icons/Icon more.svg" OnClick={handleClickModal}/>
             <ButtonNavigation name="Perfil" icon="/Icons/Profile Image.jpg" OnClick={handleClick}/>
             <section className={styles.section_menu}>
                 <ButtonNavigation name="Más" icon="/Icons/Icon Menu.svg" OnClick={handleClick}/>

@@ -11,6 +11,7 @@
     flex-direction: column;
     margin-top: 32px;
     
+    
 
 }
 
@@ -123,7 +124,8 @@
     position: relative;
     overflow: hidden;
     border-radius: 7px;
-    box-shadow: inset 10px 50px 50px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px -60px 20px rgba(0, 0, 0, 0.4),
+                inset 10px 50px 50px 10px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -268,3 +270,7 @@
 .footer_icon_container img:hover {
     opacity: 0.5;
 }
+
+
+
+
