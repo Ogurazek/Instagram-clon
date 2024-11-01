@@ -27,9 +27,9 @@ export function SideBar ({ actualizarEstadoHome }: sideBarProps) {
             <ButtonNavigation name="Mensajes" icon="/Icons/Icon Messanger.svg" OnClick={handleClick}/>
             <ButtonNavigation name="Notificaciones" icon="/Icons/Icon Favourite.svg" OnClick={handleClick}/>
             <ButtonNavigation name="Crear" icon="/Icons/Icon more.svg" OnClick={handleClick}/>
-            <ButtonNavigation name="Perfil" icon="/Icons/Profile Image.jpg"/>
+            <ButtonNavigation name="Perfil" icon="/Icons/Profile Image.jpg" OnClick={handleClick}/>
             <section className={styles.section_menu}>
-                <ButtonNavigation name="Más" icon="/Icons/Icon Menu.svg"/>
+                <ButtonNavigation name="Más" icon="/Icons/Icon Menu.svg" OnClick={handleClick}/>
             </section>
             </div>
             

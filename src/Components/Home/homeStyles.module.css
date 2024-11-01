@@ -123,7 +123,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 7px;
-    box-shadow: inset 10px 20px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 10px 50px 50px 10px rgba(0, 0, 0, 0.5);
     
 }
 
