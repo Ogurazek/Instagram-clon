@@ -1,6 +1,7 @@
 import styles from "./homeStyles.module.css";
 import Card from "../Card/card";
 import { useState } from "react";
+import { Footer } from "../Footer/footer";
 
 interface CardInfo {
   title: string;
@@ -56,7 +57,7 @@ export function Home({ actualizarEstado }: HomeProps) {
             verify={post.verify}
             />
         ))}
-            <img src="https://media.tenor.com/2l4-h42qnmcAAAAj/toothless-dancing-toothless.gif" alt="" />
+            <Footer/>
         </>
         }
 
@@ -116,7 +117,7 @@ const stories = [
     { id: '1',
       title: 'Capítulo 1',
       img: '/img/Logo Historia.png',
-      background: "https://i.pinimg.com/originals/9e/f4/71/9ef47118655c14682cbc57aaf69f7702.jpg",
+      background: "/img/cap1.png",
       hours: '3',
      },
     { id: '2',
@@ -177,71 +178,9 @@ const stories = [
         numberOfLikes: "200",
         description: "El día más lendo del mundo ❤️",
         hours: 5,
-
+        verify: "",
      },
-     {   id: '2', 
-      name: 'Tiziana Monzón', 
-      profileImage: 'https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/420599396_1467172770526540_6401626036944713059_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHIAnbssqJ1YM57xw3PN-jU-JoY5IHVqrX4mhjkgdWqtbHlEN60BK2psZ94Z4A1YTPp8QPE0YR4-tbxoSN0rZYl&_nc_ohc=vLIeSFCK7PAQ7kNvgGYPzf5&_nc_zt=23&_nc_ht=scontent.fcnq2-2.fna&_nc_gid=AmUZOC_zTGfLm9wt_Ipl71l&oh=00_AYDnadecJE9Y2IeF9eDcXX6tVzbXn1iF3oDhQhNyduWxoA&oe=67222210',
-      imagePost: "/Icons/Profile Image.jpg", 
-      numberOfLikes: "200",
-      description: "El día más lendo del mundo ❤️",
-      hours: 6,
-
-    },
-    {   id: '3', 
-        name: 'Paulo Dybala', 
-        profileImage: 'https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/336463805_575414174544786_2326393139211537526_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH7ozpF_qXuLhijjgz1IigOKh749E8lVdoqHvj0TyVV2u-XeFEwHIlNkcteLvJBmtLVGjfC2FvsnjgeoCknqq6s&_nc_ohc=l1_3HvnC78wQ7kNvgEKDLy7&_nc_zt=23&_nc_ht=scontent.fcnq2-2.fna&_nc_gid=AVW_XlJsB6LrHRStkc5-mvf&oh=00_AYD9ckbGF7V_TeQAEsp7YsiqfwGhN-NZMB628v-NU3KNag&oe=6725743A',
-        imagePost: "/Icons/Profile Image.jpg", 
-        numberOfLikes: "200",
-        description: "El día más lendo del mundo ❤️",
-        hours: 6,
-        verify: "Icons/Icon Verify.svg",
-     },
-    {   id: '4', 
-        name: 'Tiziana Monzón', 
-        profileImage: 'https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/420599396_1467172770526540_6401626036944713059_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHIAnbssqJ1YM57xw3PN-jU-JoY5IHVqrX4mhjkgdWqtbHlEN60BK2psZ94Z4A1YTPp8QPE0YR4-tbxoSN0rZYl&_nc_ohc=vLIeSFCK7PAQ7kNvgGYPzf5&_nc_zt=23&_nc_ht=scontent.fcnq2-2.fna&_nc_gid=AmUZOC_zTGfLm9wt_Ipl71l&oh=00_AYDnadecJE9Y2IeF9eDcXX6tVzbXn1iF3oDhQhNyduWxoA&oe=67222210',
-        imagePost: "/Icons/Profile Image.jpg", 
-        numberOfLikes: "200",
-        description: "El día más lendo del mundo ❤️",
-        hours: 6,
-
-     },
-    {   id: '5', 
-        name: 'Tiziana Monzón', 
-        profileImage: 'https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/420599396_1467172770526540_6401626036944713059_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHIAnbssqJ1YM57xw3PN-jU-JoY5IHVqrX4mhjkgdWqtbHlEN60BK2psZ94Z4A1YTPp8QPE0YR4-tbxoSN0rZYl&_nc_ohc=vLIeSFCK7PAQ7kNvgGYPzf5&_nc_zt=23&_nc_ht=scontent.fcnq2-2.fna&_nc_gid=AmUZOC_zTGfLm9wt_Ipl71l&oh=00_AYDnadecJE9Y2IeF9eDcXX6tVzbXn1iF3oDhQhNyduWxoA&oe=67222210',
-        imagePost: "/Icons/Profile Image.jpg", 
-        numberOfLikes: "200",
-        description: "El día más lendo del mundo ❤️",
-        hours: 6,
-     
-     },
-    {   id: '6', 
-        name: 'Tiziana Monzón', 
-        profileImage: 'https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/420599396_1467172770526540_6401626036944713059_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHIAnbssqJ1YM57xw3PN-jU-JoY5IHVqrX4mhjkgdWqtbHlEN60BK2psZ94Z4A1YTPp8QPE0YR4-tbxoSN0rZYl&_nc_ohc=vLIeSFCK7PAQ7kNvgGYPzf5&_nc_zt=23&_nc_ht=scontent.fcnq2-2.fna&_nc_gid=AmUZOC_zTGfLm9wt_Ipl71l&oh=00_AYDnadecJE9Y2IeF9eDcXX6tVzbXn1iF3oDhQhNyduWxoA&oe=67222210',
-        imagePost: "/Icons/Profile Image.jpg", 
-        numberOfLikes: "200",
-        description: "El día más lendo del mundo ❤️",
-        hours: 6,
-        isVerify: "/Icons/Icon Verify.svg",
-     },
-    {   id: '7', 
-        name: 'Tiziana Monzón', 
-        profileImage: 'https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/420599396_1467172770526540_6401626036944713059_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHIAnbssqJ1YM57xw3PN-jU-JoY5IHVqrX4mhjkgdWqtbHlEN60BK2psZ94Z4A1YTPp8QPE0YR4-tbxoSN0rZYl&_nc_ohc=vLIeSFCK7PAQ7kNvgGYPzf5&_nc_zt=23&_nc_ht=scontent.fcnq2-2.fna&_nc_gid=AmUZOC_zTGfLm9wt_Ipl71l&oh=00_AYDnadecJE9Y2IeF9eDcXX6tVzbXn1iF3oDhQhNyduWxoA&oe=67222210',
-        imagePost: "/Icons/Profile Image.jpg", 
-        numberOfLikes: "200",
-        description: "El día más lendo del mundo ❤️",
-        hours: 6,
-        isVerify: "/Icons/Icon Verify.svg",
-     },
-    {   id: '8', 
-        name: 'Tiziana Monzón', 
-        profileImage: 'https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/420599396_1467172770526540_6401626036944713059_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHIAnbssqJ1YM57xw3PN-jU-JoY5IHVqrX4mhjkgdWqtbHlEN60BK2psZ94Z4A1YTPp8QPE0YR4-tbxoSN0rZYl&_nc_ohc=vLIeSFCK7PAQ7kNvgGYPzf5&_nc_zt=23&_nc_ht=scontent.fcnq2-2.fna&_nc_gid=AmUZOC_zTGfLm9wt_Ipl71l&oh=00_AYDnadecJE9Y2IeF9eDcXX6tVzbXn1iF3oDhQhNyduWxoA&oe=67222210',
-        imagePost: "/Icons/Profile Image.jpg", 
-        numberOfLikes: "200",
-        description: "El día más lendo del mundo ❤️",
-        hours: 6,
-        isVerify: "/Icons/Icon Verify.svg",
-     },
+    
   ];
 
 
