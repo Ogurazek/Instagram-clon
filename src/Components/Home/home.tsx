@@ -133,7 +133,7 @@ const stories = [
     { id: '2',
       title: 'Capítulo 1',
       img: '/img/Logo Historia 2.png',
-      background: "https://media.tenor.com/2l4-h42qnmcAAAAj/toothless-dancing-toothless.gif",
+      background: "/img/cap2.png",
       hours: '3',
      },
     { id: '3',

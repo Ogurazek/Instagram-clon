@@ -8,23 +8,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .container_crp {
-    width: 730px;
-    height: 400px;
+    width: 800px;
+    height: 450px;
     background-color: red;
+    border-radius: 12px;
+    overflow: hidden;
+   
     
 }
 
 .header_crp {
     width: auto;
     height: 30px;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid #262626;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 6px;
+    border-radius: 12px 12px 0px 0px;
    
 }
 
@@ -35,6 +41,55 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: none;
 
    
 }
+
+.button_arrow_crp button:hover {
+    opacity: 0.5;
+}
+
+.span_crp strong{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.button_share_crp button {
+    width:70px;
+    font-size: 13px;
+    color: #0095F6;
+
+}
+
+.button_share_crp button:hover {
+    color: rgb(255, 255, 255);
+}
+
+.section_img {
+    width: 450px;
+    height: 90.6%; /*Esto esta super mal, ya lo sé pero es provisional*/
+    background-color: rebeccapurple;
+}
+
+.section_img img {
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.section_form {
+    height: 100%;
+    width: 350px;
+    background-color: #1A1A1A;
+    border-left: 1px solid #272727;
+}
+
+.article_container_form {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(109, 21, 21);
+    display: flex;
+}
+       
