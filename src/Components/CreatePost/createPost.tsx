@@ -1,9 +1,13 @@
+import { useState } from 'react';
 import styles from './createPostStyles.module.css'
 
-
 export function CreatePost( {onClick}: {onClick:any;} ) {
+    const [message, setMessage] = useState("");
+    const counter = message.length;
 
-
+    const messageRecu = (event: any) => {
+        setMessage(event.target.value)
+    }
 
     return(
         <>
@@ -23,10 +27,23 @@ export function CreatePost( {onClick}: {onClick:any;} ) {
                 </div>
                 </header>
                 <article className={styles.article_container_form}>
-                <div className={styles.section_img}><img src="https://i.pinimg.com/originals/9e/f4/71/9ef47118655c14682cbc57aaf69f7702.jpg" alt="" /></div>
+                <div className={styles.section_img}><img src="/Icons/Icon Loading.svg" alt="" /></div>
                 <section className={styles.section_form}>
-                    <textarea name="" id=""></textarea>
-
+                    <div className={styles.section_span}>
+                        <img src="/Icons/Profile Image.jpg" alt="" />
+                        <strong>perezelias_</strong>
+                    </div>
+                    <div className={styles.section_form_textarea} >
+                    <textarea name="" id="" value={message} onChange={messageRecu} maxLength={250}></textarea>
+                    </div>
+                    <section className={styles.section_form_words}>
+                        <button><img src="/Icons/Icon Emoji.svg" alt="" /></button>
+                        <div><p>{counter}/250</p></div>
+                    </section>
+                    <div className={styles.container_input}>
+                        <span>Imagen(url)</span>
+                        <input type="text" placeholder='https://www.ejemplo.com' />
+                    </div>
                 </section>
                 </article>
             </article>
