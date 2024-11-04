@@ -3,7 +3,8 @@
 
 .containerHome {
     margin-left:260px; 
-    width: 750px;
+    margin-right: 15px;
+    width: auto;
     height: auto;
     min-height: 600px;
     display: flex;
@@ -20,7 +21,7 @@
         width: 725px; 
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .containerHome {
         width: 725px; 
         margin: 6px;
@@ -206,7 +207,7 @@
 }
 
 
-.nav_out_img:hover {
+.button_x button:hover {
     opacity: 0.5;
 }
 

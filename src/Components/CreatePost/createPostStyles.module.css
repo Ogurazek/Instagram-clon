@@ -1,216 +1,213 @@
 .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container_crp {
-    width: 800px;
-    height: 475px;
-    border-radius: 12px;
-    overflow: hidden;
-   
-    
+  width: 800px;
+  height: 475px;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .header_crp {
-    width: auto;
-    height: 30px;
-    background-color: rgb(0, 0, 0);
-    border-bottom: 1px solid #262626;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 6px;
-    border-radius: 12px 12px 0px 0px;
-   
+  width: auto;
+  height: 30px;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid #262626;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+  border-radius: 12px 12px 0px 0px;
 }
 
 .button_arrow_crp button {
-    width: 20px;
-    height: 30px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    
-    background: none;
+  width: 20px;
+  height: 30px;
+  margin: 0;
+  display: flex;
+  align-items: center;
 
-   
+  background: none;
 }
 
 .button_share_crp button {
-    width: 20px;
-    height: 30px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: none;
+  width: 20px;
+  height: 30px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
 }
 
 .button_arrow_crp button:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
-.span_crp strong{
-    font-weight: 500;
-    font-size: 15px;
+.span_crp strong {
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .button_share_crp button {
-    width:70px;
-    font-size: 13px;
-    color: #0095F6;
-
+  width: 70px;
+  font-size: 13px;
+  color: #0095f6;
 }
 
 .button_share_crp button:hover {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .section_img {
-    width: 450px;
-    height: 90.9%; /*Esto esta super mal, ya lo sé pero es provisional*/
-    background-color: #000000;
+  width: 450px;
+  height: 90.9%; /*Esto esta super mal, ya lo sé pero es provisional*/
+  background-color: #000000;
 }
 
 .section_img img {
-    width: 100%;    
-    height: 100%;
-    object-fit: cover;
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .section_form {
-    height: 100%;
-    width: 350px;
-    background-color: #262626;
-    border-left: 1px solid #2b2a2a;
+  height: 100%;
+  width: 350px;
+  background-color: #262626;
+  border-left: 1px solid #2b2a2a;
 }
 
 .article_container_form {
-    width: 100%;
-    height: 100%;
-    display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 .section_form_textarea {
-    width: 100%;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section_form_textarea textarea {
-    width: 90%;
-    height: 100%;
-    margin: 0;
-    resize: none;
-    background: none;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    font-family: sans-serif;
+  width: 90%;
+  height: 100%;
+  margin: 0;
+  resize: none;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: sans-serif;
 }
 
 .section_form_textarea textarea:focus {
-    border: none;
+  border: none;
 }
 
-
 .section_span {
-    width: 100%;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    padding: 8px;
-    gap: 12px;
-    margin-left: 6px;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  gap: 12px;
+  margin-left: 6px;
 }
 
 .section_span img {
-    width: 36px;
-    height: 36px;
-    object-fit:cover;
-    border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .section_span strong {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .section_form_words {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .section_form_words button {
-    width: 32px;
-    height: 32px;
-    margin: 0;
-    background: none;
-    outline: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 8px;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  background: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
 }
 
-
 .section_form_words div {
-    width: 50px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 8px;
+  width: 50px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
 }
 
 .section_form_words p {
-    font-size: 12px;
-    margin: 0;
-    color: #747474;
+  font-size: 12px;
+  margin: 0;
+  color: #747474;
 }
 
 .section_form_words button img {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .section_form_words button:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .container_input {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
+  display: flex;
+  flex-direction: column;
+}
+.container_input div {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-
 .container_input input {
-    width: 210px;
-    height: 25px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-    background: none;
-    border-bottom: 1px solid #5f5f5f;
+  width: 210px;
+  height: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid #5f5f5f;
+  margin-left: 5px;
+}
+
+.container_input label {
+  font-size: 14px;
+  width: 80px;
 }

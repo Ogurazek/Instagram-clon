@@ -139,7 +139,7 @@ const stories = [
     { id: '3',
       title: 'Capítulo 3',
       img: '/img/Logo Historia 3.png',
-      background: "https://scontent.fcnq2-1.fna.fbcdn.net/v/t39.30808-6/417121172_2533256406875649_4157780593792047600_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEQUwCHNGP20cH9ov5RypC2jjN1FqiNz9eOM3UWqI3P19fWI5o8_q2eQJzUb1rHS0E5eEoYSBmonowUT7K7vpFm&_nc_ohc=dTBi2MBpCbkQ7kNvgFivENF&_nc_zt=23&_nc_ht=scontent.fcnq2-1.fna&_nc_gid=A_VbF7a5vs-Vsa1Oao8qh_x&oh=00_AYAizRhcpQrikLMDjr5U4b24BGYpuY1F4Tlm5jFJQMWF6A&oe=67223A43",
+      background: "/img/cap3.png",
       hours: '3',
      },
     { id: '4',
