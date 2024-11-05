@@ -43,7 +43,7 @@ export function SideBar({ actualizarEstadoHome, actualizarEstadoModal }: sideBar
 }
 
 
-function ButtonNavigation({ name, icon, OnClick }: { name: string, icon?: string, OnClick?: any, }) {
+function ButtonNavigation({ name, icon, OnClick }: { name: string, icon?: string, OnClick?: React.MouseEventHandler<HTMLButtonElement>, }) {
     const isProfile = name === "Perfil"; //Si el nombre es Perfil... Este tomara otra clase así le puedo agregar el radius
 
     return (
