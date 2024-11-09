@@ -103,6 +103,6 @@ const suggestions = [
         name: "Angelica Bullón",
         username: "angelicabullon",
         subInfo: "Seguir",
-        img: "https://scontent.fcnq2-1.fna.fbcdn.net/v/t39.30808-6/417121172_2533256406875649_4157780593792047600_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEQUwCHNGP20cH9ov5RypC2jjN1FqiNz9eOM3UWqI3P19fWI5o8_q2eQJzUb1rHS0E5eEoYSBmonowUT7K7vpFm&_nc_ohc=LOuAYRPFTX8Q7kNvgEvJ9GP&_nc_zt=23&_nc_ht=scontent.fcnq2-1.fna&_nc_gid=A0sXer3P8PrHkYErIT-h0v7&oh=00_AYAl3HtdtAyPV5y2dGwYVeMw1kF-BckprQkxqb1ERKfuog&oe=67258603",
+        img: "/img/rightBarPicture.jpg",
     },
 ]

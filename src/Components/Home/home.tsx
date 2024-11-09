@@ -210,7 +210,7 @@ const posts = [
   {
     id: '1',
     name: 'Oculto',
-    profileImage: 'https://scontent.fcnq2-1.fna.fbcdn.net/v/t39.30808-6/319706151_3198051160453508_7252669332661865411_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFGcwFEX9bSTjnIMUmESLvZSem7barRGrhJ6bttqtEauJspGLuKE3RmZ_U3GX9cEpe6Vw0hLTbtY3-egW4d8MxR&_nc_ohc=8sv38S8dsdsQ7kNvgHCwioM&_nc_zt=23&_nc_ht=scontent.fcnq2-1.fna&_nc_gid=APcQsxXBii2EH6U1_45awd2&oh=00_AYAGWbctMwQEY1axOEPlCBGDDWSLOT21uOjffxL9H_KTCg&oe=672585B7',
+    profileImage: '/img/profileOgurazek.jpg',
     imagePost: "https://i.pinimg.com/originals/9e/f4/71/9ef47118655c14682cbc57aaf69f7702.jpg",
     numberOfLikes: "1.000.000",
     description: "No podes ver esto aún",
