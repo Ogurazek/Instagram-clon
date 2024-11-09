@@ -43,6 +43,10 @@
   background-color: #1a1a1a;
 }
 
+.nav_container button:focus {
+  border-bottom: 1px solid #777777;
+}
+
 .nav_container img {
   width: 24px;
   height: 24px;
