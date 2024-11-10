@@ -12,11 +12,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -39,8 +36,6 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-
-
 
 strong {
   font-weight: 400;
