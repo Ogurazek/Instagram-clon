@@ -61,6 +61,17 @@ export function Home({ actualizarEstado, EstadoModal, actualizarEstadoModal }: H
           </header>
           {!selectedCardInfo &&
             <>
+              {postHome.map((post) => (
+                <Card
+                  name={post.name || "perezelias_"}
+                  key={post.imgProfile}
+                  profileImage={post.imgProfile || "/Icons/Profile Image.jpg"}
+                  imagePost={post.imagePost || "/Icons/Icon Loading.svg"}
+                  description={post.description || "La nada absoluta mi rey"}
+                  hours={"4"}
+                  numberOfLikes={"0"}
+                />
+              ))}
               {posts.map(post => (
                 <Card
                   name={post.name}
@@ -71,17 +82,6 @@ export function Home({ actualizarEstado, EstadoModal, actualizarEstadoModal }: H
                   description={post.description}
                   hours={post.hours}
                   verify={post.verify}
-                />
-              ))}
-              {postHome.map((post) => (
-                <Card
-                  name={post.name || "perezelias_"}
-                  key={post.imgProfile}
-                  profileImage={post.imgProfile || "/Icons/Profile Image.jpg"}
-                  imagePost={post.imagePost || "/Icons/Icon Loading.svg"}
-                  description={post.description || "La nada absoluta mi rey"}
-                  hours={"4"}
-                  numberOfLikes={"0"}
                 />
               ))}
 

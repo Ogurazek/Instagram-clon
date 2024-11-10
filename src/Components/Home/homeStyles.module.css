@@ -104,6 +104,21 @@
   opacity: 0.5;
 }
 
+@media (max-width: 627px) {
+  .history_container_div img,
+  .button_x,
+  .nav_out_img {
+    display: none;
+  }
+}
+@media (max-width: 627px) {
+  .img_container_history {
+    height: 100%;
+    min-width: 100%;
+    margin: 12px;
+  }
+}
+
 .img_container_history {
   height: 96%;
   width: 350px;
