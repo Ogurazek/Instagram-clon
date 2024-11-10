@@ -3,7 +3,6 @@ import { Home } from "./Components/Home/home";
 import { RightSideBar } from "./Components/RightSideBar/rightSideBar";
 import { useState } from "react";
 import { SectionHome } from "./Components/SectionButton/sectionButton";
-import styles from './appStyles.module.css'
 
 function App() {
   const [showInfoCard, setShowInfoCard] = useState(false);
