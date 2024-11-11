@@ -134,3 +134,7 @@
   word-break: break-word; /* Permite el salto de línea en palabras largas */
   overflow-wrap: break-word;
 }
+
+.div_description p strong {
+  font-weight: 600;
+}
