@@ -28,6 +28,7 @@ export function Home({ actualizarEstado, EstadoModal, actualizarEstadoModal }: H
   const [selectedCardInfo, setSelectedCardInfo] = useState<CardInfo | null>(null);
   const [postHome, setPost] = useState<Array<PostInfo>>([]);
 
+
   // 2 - Función para guardar la información en el estado
   const handleCardClick = (info: CardInfo) => {
     setSelectedCardInfo(info);
@@ -147,7 +148,7 @@ const stories = [
     id: '1',
     title: 'Capítulo 1',
     img: '/img/Logo Historia.png',
-    background: "/img/cap0.png",
+    background: "/img/cap1.png",
     hours: '1',
   },
   {
@@ -209,13 +210,21 @@ const posts = [
 
   {
     id: '1',
-    name: 'Oculto',
+    name: 'Perez Elías',
     profileImage: '/img/profileOgurazek.jpg',
-    imagePost: "https://i.pinimg.com/originals/9e/f4/71/9ef47118655c14682cbc57aaf69f7702.jpg",
-    numberOfLikes: "1.000.000",
-    description: "No podes ver esto aún",
-    hours: "0",
-    verify: "",
+    imagePost: "/img/Post1.jpg",
+    numberOfLikes: "1.111.024",
+    description: `Feliz, feliz en tu día, mi Noviecita que dios te bendiga, que reine la paz en tus días y que vivas muchos más!! ❤️
+    Feliz cumpleaños a la persona que hace que cada día sea especial para mí, a quien logra sacar mi mejor versión y me hace el más feliz. 
+    No tengo suficientes palabras para agradecerte por permitirme estar a tu lado en un día tan especial. 
+    No sabes lo afortunado que me siento de estar con vos y cuánto valoro cada momento, cada sonrisa y cada muestra
+    de cariño.
+    Gracias por tu paciencia, por entenderme, por estar a mi lado aun en mis días difíciles y por darme tanto. Un millón de gracias a vos, Mi 
+    Tiziana Yazmín Monzón.
+    Te amo con todo mi corazón, y prometo cuidarte y estar siempre a tu lado. Vamos por muchos años más juntos, mi Princesa 👑😙
+    `,
+    hours: "5",
+    verify: "/Icons/Icon Verify.svg ",
   },
 ];
 
