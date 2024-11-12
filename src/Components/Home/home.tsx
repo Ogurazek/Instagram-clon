@@ -209,6 +209,22 @@ const stories = [
 const posts = [
 
   {
+    id: '2',
+    name: 'Robert Pattinson',
+    profileImage: 'https://media.gq.com.mx/photos/61eae22d5def32c5619cf082/3:2/w_3000,h_2000,c_limit/GettyImages-1183868862.jpg',
+    imagePost: "/img/Post2.jpg",
+    numberOfLikes: "1.111.024",
+    description: `Le mando un muy feliz cumple a mi seguidora número 1. 
+    Me entere que ayer era el cumpleaños, y le quería felicitar y también por supuesto
+    a su novio, porque gracias a él me entere. 
+    Espero que la hayan pasado super, y que viva su amor por siempre ❤️. Voy a dejar una frase mía:
+
+    El amor es irracional, cuanto más quieres a alguien, menos lógica tiene todo. 
+    `,
+    hours: "1",
+    verify: "/Icons/Icon Verify.svg ",
+  },
+  {
     id: '1',
     name: 'Perez Elías',
     profileImage: '/img/profileOgurazek.jpg',
