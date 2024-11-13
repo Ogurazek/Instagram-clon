@@ -162,7 +162,7 @@ const stories = [
     id: '3',
     title: 'Capítulo 3',
     img: '/img/Logo Historia 3.png',
-    background: "/img/cap0.png",
+    background: "/img/cap3.png",
     hours: '3',
   },
   {
@@ -208,6 +208,24 @@ const stories = [
 
 const posts = [
 
+  {
+    id: '3',
+    name: 'Perez Elías',
+    profileImage: '/img/profileOgurazek.jpg',
+    imagePost: "/img/Post3.jpg",
+    numberOfLikes: "2.000.000",
+    description: `La belleza que tenías ese día era inexplicable. Hasta me quedaba sin palabras cuando te vía.
+    estaba super nervioso, mi corazón latía a mil. Estabas vos ahí, con esa carita, con esos ojitos, con ese vestido
+    que tan hermoso te quedaba, con esos zapatos, con esas uñas y mil adjetivos más que te podría decir
+    . Eras, y sos la chica más hermosa, resaltabas tanto que tenía tanto miedo de que otro hombre te mirará. 
+    Vamos a la foto, era una foto que no recordaba que tenía, pero sin duda es una de mis fotos favoritas... Me trae muchos
+    sentimientos, y me trae a ese momento exacto, donde ibamos a pasar, y sin duda, como lo dije, y lo vuelvo a recalcar, ese momento
+     no se menciona mucho, pero esta en mi mente todos los días. 
+
+    `,
+    hours: "24",
+    verify: "/Icons/Icon Verify.svg ",
+  },
   {
     id: '2',
     name: 'Robert Pattinson',

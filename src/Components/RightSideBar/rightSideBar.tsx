@@ -96,7 +96,7 @@ const suggestions = [
         username: "robertpattinson",
         subInfo: "Seguir",
         verify: "/Icons/Icon Verify.svg",
-        img: "https://image.tmdb.org/t/p/w500/8A4PS5iG7GWEAVFftyqMZKl3qcr.jpg",
+        img: "https://media.gq.com.mx/photos/61eae22d5def32c5619cf082/3:2/w_3000,h_2000,c_limit/GettyImages-1183868862.jpg",
     },
     {
         id: "5",
