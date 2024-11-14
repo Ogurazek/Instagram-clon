@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <div style={{ width: 'vw', height: 'vh' }}>
-        <div style={{ display: 'flex', overflow: 'hidden', justifyContent: 'space-between', }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', }}>
 
 
           {!showInfoCard && <SideBar actualizarEstadoHome={updateStateHome} actualizarEstadoModal={updateShowModal} />}
