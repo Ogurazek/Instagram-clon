@@ -169,7 +169,7 @@ const stories = [
     id: '4',
     title: 'Capítulo 4',
     img: '/img/Logo Historia 4.png',
-    background: "/img/cap0.png",
+    background: "/img/cap4.png",
     hours: '4',
   },
   {
@@ -208,6 +208,20 @@ const stories = [
 
 const posts = [
 
+  {
+    id: '4',
+    name: 'Oriana Sabatini',
+    profileImage: 'https://assets.dev-filo.dift.io/img/2018/01/14/oriana_sq.jpg',
+    imagePost: "/Icons/Profile Image.jpg",
+    numberOfLikes: "250.000",
+    description: ` 
+    Con Paulo le mandamos muchísimos besos ya que nos enteramos de que ya falta muy poco para su aniversario ❤️
+    Espero que tengan una linda relación, y sepan cuidarse y amarse tanto como nosotros 😊 (Mensaje para Tizi ---> No te peles las cejas
+    como yo, te vas a arrepentir)
+    `,
+    hours: "13",
+    verify: "/Icons/Icon Verify.svg",
+  },
   {
     id: '3',
     name: 'Perez Elías',
