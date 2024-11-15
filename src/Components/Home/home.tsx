@@ -176,7 +176,7 @@ const stories = [
     id: '5',
     title: 'Capítulo 5',
     img: '/img/Logo Historia 5.png',
-    background: "/img/cap0.png",
+    background: "/img/cap5.png",
     hours: '5',
   },
   {
@@ -209,6 +209,22 @@ const stories = [
 const posts = [
 
   {
+    id: '5',
+    name: 'Perez Elías',
+    profileImage: '/img/profileOgurazek.jpg',
+    imagePost: "/img/Post5.jpg",
+    numberOfLikes: "250.000",
+    description: ` 
+    "Todo va a estar bien" Suena tan simple, pero a la vez, por lo menos para mi, tiene un signficado gigante. 
+    Me trae un alivio, me devuelve el alma al cuerpo, hace que todos mis problemas por un momento desaparezcan y cuando vos
+    lo decís, es lo único que me puede calmar en mis momentos más tensos. Verdaderamente, para mi, no es solo un estar bien
+    es un sentimiento de seguridad, de tranquilidad y de mucho amor que me das. Y nadie nunca me hizo sentir así
+    con una simple frase 🥺❤️
+    `,
+    hours: "13",
+    verify: "",
+  },
+  {
     id: '4',
     name: 'Oriana Sabatini',
     profileImage: 'https://assets.dev-filo.dift.io/img/2018/01/14/oriana_sq.jpg',
@@ -238,14 +254,14 @@ const posts = [
 
     `,
     hours: "24",
-    verify: "/Icons/Icon Verify.svg ",
+    verify: "",
   },
   {
     id: '2',
     name: 'Robert Pattinson',
     profileImage: 'https://media.gq.com.mx/photos/61eae22d5def32c5619cf082/3:2/w_3000,h_2000,c_limit/GettyImages-1183868862.jpg',
     imagePost: "/img/Post2.jpg",
-    numberOfLikes: "1.111.024",
+    numberOfLikes: "1.000.000",
     description: `Le mando un muy feliz cumple a mi seguidora número 1. 
     Me entere que ayer era el cumpleaños, y le quería felicitar y también por supuesto
     a su novio, porque gracias a él me entere. 
@@ -272,7 +288,7 @@ const posts = [
     Te amo con todo mi corazón, y prometo cuidarte y estar siempre a tu lado. Vamos por muchos años más juntos, mi Princesa 👑😙
     `,
     hours: "5",
-    verify: "/Icons/Icon Verify.svg ",
+    verify: "",
   },
 ];
 
