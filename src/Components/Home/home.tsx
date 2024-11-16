@@ -183,7 +183,7 @@ const stories = [
     id: '6',
     title: 'Capítulo 6',
     img: '/img/Logo Historia 6.png',
-    background: "/img/cap0.png",
+    background: "/img/cap6.png",
     hours: '6',
   },
   {
@@ -208,6 +208,21 @@ const stories = [
 
 const posts = [
 
+  {
+    id: '6',
+    name: 'Perez Elías',
+    profileImage: '/img/profileOgurazek.jpg',
+    imagePost: "/img/Post6.jpg",
+    numberOfLikes: "2.000",
+    description: ` 
+    La verdad el desayuno lo recordaba muchísimo más lindo jasjas, pero bueno. Fue algo muy especial y muy lindo de vivir.
+    Las medialunas y el juguito estaban ricos. Es algo humilde, yo lo sé, pero fue bastante hermoso 🥺. También
+    no quiero dejar de lado esa vez que prepare los sandwichitos y comimos en la plaza, tooppp desayunos de mi vida. Espero
+    verdaderamente, que esas cositas no se acaban nunca ❤️
+    `,
+    hours: "10",
+    verify: "",
+  },
   {
     id: '5',
     name: 'Perez Elías',
