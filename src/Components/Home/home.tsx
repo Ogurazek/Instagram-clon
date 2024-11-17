@@ -190,7 +190,7 @@ const stories = [
     id: '7',
     title: 'Capítulo 7',
     img: '/img/Logo Historia 7.png',
-    background: "/img/cap0.png",
+    background: "/img/cap7.png",
     hours: '7',
   },
   {
@@ -208,6 +208,18 @@ const stories = [
 
 const posts = [
 
+  {
+    id: '7',
+    name: 'Tiziana Monzón',
+    profileImage: 'https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/420599396_1467172770526540_6401626036944713059_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHIAnbssqJ1YM57xw3PN-jU-JoY5IHVqrX4mhjkgdWqtbHlEN60BK2psZ94Z4A1YTPp8QPE0YR4-tbxoSN0rZYl&_nc_ohc=KKipdvrn0_oQ7kNvgESrStO&_nc_zt=23&_nc_ht=scontent.fcnq2-2.fna&_nc_gid=A0QF1dXuuthP3sz10rptF7U&oh=00_AYBymNVkFWrDoagVl4G8bWfjCmRKtZk0y4pXumW8KZXKsw&oe=67403C50',
+    imagePost: "/img/Post7.jpg",
+    numberOfLikes: "5.000.000",
+    description: ` 
+    Después de tantos días feos y tantos malos momentos, llegó el día de tu cumple y con nulas esperanzas de q algo pase, el milagro surgió y pudimos estar juntos para tu día tan especial y encima pasamos una noche re linda en family y con las personas que tanto querés. Espero pasar muchos cumpleaños y muchas fechas importantes mas juntitos, te amo un montón, felices 18 mi amor, sigamos construyendo nuestro futuro juntos y pasándola tan lindo como solo nosotros sabemos ❤️
+    `,
+    hours: "1",
+    verify: "/Icons/Icon Verify.svg",
+  },
   {
     id: '6',
     name: 'Perez Elías',
