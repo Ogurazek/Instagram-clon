@@ -35,7 +35,7 @@ export default function Card({ profileImage, name, imagePost, numberOfLikes, des
                     <span>{numberOfLikes}&nbsp;Me gusta</span>
                 </div>
                 <div className={styles.div_description}>
-                    <p><strong>{name}&nbsp;&nbsp;</strong>{description}</p>
+                    <p><strong>{name}&nbsp;</strong>{description}</p>
                 </div>
             </article>
         </>
