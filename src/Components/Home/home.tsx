@@ -190,7 +190,7 @@ const stories = [
     id: '7',
     title: 'Capítulo 7',
     img: '/img/Logo Historia 7.png',
-    background: "/img/cap7.png",
+    background: "/img/cap0.png",
     hours: '7',
   },
   {
