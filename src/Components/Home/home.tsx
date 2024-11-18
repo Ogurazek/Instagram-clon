@@ -197,7 +197,7 @@ const stories = [
     id: '8',
     title: 'Capítulo 8',
     img: '/img/Logo Historia 8.png',
-    background: "/img/cap0.png",
+    background: "/img/cap8.png",
     hours: '8',
   },
 
@@ -208,6 +208,34 @@ const stories = [
 
 const posts = [
 
+  {
+    id: '9',
+    name: 'Perez Elías',
+    profileImage: '/img/profileOgurazek.jpg',
+    imagePost: "/img/Post9.jpg",
+    numberOfLikes: "1.000.000",
+    description: ` 
+    Gracias, gracias a vos, gracias por hacerme la persona más feliz. Sos la razón por las cuales, mis mañanas son diferentes,
+    son especiales. Sos vos la que ilumina mi camino, y siempre esta ahí para apoyarme donde más necesito. Estas ahí para curar 
+    mis heridas, estas ahí para abrazarme y levantarme. Vos sos la persona más linda que conozco, y la que hizo cosas inimaginables
+    por mi. Prometo nunca olvidarme de cada detalle que hiciste por mi, y vamos a luchar para llegar muy lejos mi amor. Te amo Mucho, felices 2 añitos juntos
+    `,
+    hours: "3",
+    verify: "",
+  },
+  {
+    id: '8',
+    name: 'Paulo Dybala',
+    profileImage: 'https://www.cronica.com.ar/img/2022/03/18/paulo_dybala_1.jpg?__scale=w:1200,h:630,t:2',
+    imagePost: "/img/Post8.jpg",
+    numberOfLikes: "1.000.000",
+    description: ` 
+    Feliz aniversario a la pareja más linda del mundo ❤️ Espero que la pasen genial, y disfruten mucho de su amor.
+    Muy feliz día para ustedes.
+    `,
+    hours: "4",
+    verify: "/Icons/Icon Verify.svg",
+  },
   {
     id: '7',
     name: 'Tiziana Monzón',
