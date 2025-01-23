@@ -146,58 +146,58 @@ const stories = [
 
   {
     id: '1',
-    title: 'Capítulo 1',
-    img: '/img/Logo Historia.png',
-    background: "/img/cap1.png",
+    title: 'UEFA',
+    img: 'https://play-lh.googleusercontent.com/LqweR2ETw35XXsz0YJO8e1gYMozGL-JRqtT1l3ITLS1ncyrWjq9TJmJFP3NCYa5klw',
+    background: "https://editorial.uefa.com/resources/0290-1bb9aa185b0a-1972bade03fd-1000/uefa_champions_league_2024_25_league_phase_draw_.jpeg",
     hours: '1',
   },
   {
     id: '2',
-    title: 'Capítulo 2',
-    img: '/img/Logo Historia 2.png',
-    background: "/img/cap2.png",
+    title: 'Messi',
+    img: 'https://www.lanacion.com.ar/resizer/v2/lionel-messi-marco-un-gol-en-su-primer-partido-3XGC2X5GTRFUVEOVXFYG5QW33M.jpeg?auth=87435fa6f9b1b5815206c195564768a4cdc2da225486174c2e75f3db217dcf5d&width=420&height=280&quality=70&smart=true',
+    background: "https://media.elobservador.com.uy/p/2fafb1e2fb2a84b237c7c14bb8670220/adjuntos/362/imagenes/100/589/0100589431/1000x0/smart/la-reaccion-lionel-messi-los-hinchas-mexicanos.jfif",
     hours: '2',
   },
   {
     id: '3',
-    title: 'Capítulo 3',
-    img: '/img/Logo Historia 3.png',
-    background: "/img/cap3.png",
+    title: 'Cars',
+    img: 'https://www.lavoz.com.ar/resizer/v2/QR3HKB45EJHN5NCACG2G3PPI6Y.jpg?quality=75&smart=true&auth=2501a0cd05173db972566d1ce8c41def0e4bca7a40391710c1ca2957e3c4115f&width=980&height=640',
+    background: "https://www.lavoz.com.ar/resizer/v2/QR3HKB45EJHN5NCACG2G3PPI6Y.jpg?quality=75&smart=true&auth=2501a0cd05173db972566d1ce8c41def0e4bca7a40391710c1ca2957e3c4115f&width=980&height=640",
     hours: '3',
   },
   {
     id: '4',
-    title: 'Capítulo 4',
-    img: '/img/Logo Historia 4.png',
-    background: "/img/cap4.png",
+    title: 'Argentina',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKKRnYy2X3VMitHX4muPOkAZORbw6536jJ0A&s',
+    background: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Argentina_topo_blank.jpg",
     hours: '4',
   },
   {
     id: '5',
-    title: 'Capítulo 5',
-    img: '/img/Logo Historia 5.png',
-    background: "/img/cap5.png",
+    title: 'Programming',
+    img: 'https://db0dce98.delivery.rocketcdn.me/es/files/2024/08/Programacion_Procedural_DataScientest.png',
+    background: "https://db0dce98.delivery.rocketcdn.me/es/files/2024/08/Programacion_Procedural_DataScientest.png",
     hours: '5',
   },
   {
     id: '6',
-    title: 'Capítulo 6',
-    img: '/img/Logo Historia 6.png',
-    background: "/img/cap6.png",
+    title: 'CR7',
+    img: 'https://phantom-marca.unidadeditorial.es/f44f8eaebcbdef265bad672de04515c4/resize/828/f/jpg/assets/multimedia/imagenes/2022/07/30/16591778851898.jpg',
+    background: "https://e00-xlk-ue-marca.uecdn.es/uploads/2024/10/11/17258762733519.jpeg",
     hours: '6',
   },
   {
     id: '7',
-    title: 'Capítulo 7',
-    img: '/img/Logo Historia 7.png',
-    background: "/img/cap0.png",
+    title: 'Youtube',
+    img: 'https://yt3.googleusercontent.com/8YREjMpJG4lXPc4oAIXZbSL6GniENWwAJIAGQ2yR3yphhJz_0XUoNoj6uMaWPevxVl721QKKnqM=s900-c-k-c0x00ffffff-no-rj',
+    background: "https://www.pixelstalk.net/wp-content/uploads/image10/YouTube-Logo-wallpaper-with-clean-lines-and-a-simple-color-palette-for-a-modern-look.jpg",
     hours: '7',
   },
   {
     id: '8',
-    title: 'Capítulo 8',
-    img: '/img/Logo Historia 8.png',
-    background: "/img/cap8.png",
+    title: 'Barcelona',
+    img: 'https://imageio.forbes.com/specials-images/imageserve/658147e8df7921209a86740c/FC-Barcelona-could-sell-Vitor-Roque-/960x0.jpg?format=jpg&width=960',
+    background: "https://imageio.forbes.com/specials-images/imageserve/658147e8df7921209a86740c/FC-Barcelona-could-sell-Vitor-Roque-/960x0.jpg?format=jpg&width=960",
     hours: '8',
   },
 
@@ -210,140 +210,27 @@ const posts = [
 
   {
     id: '9',
-    name: 'Perez Elías',
-    profileImage: '/img/profileOgurazek.jpg',
-    imagePost: "/img/Post9.jpg",
+    name: 'Cars',
+    profileImage: 'https://www.lavoz.com.ar/resizer/v2/QR3HKB45EJHN5NCACG2G3PPI6Y.jpg?quality=75&smart=true&auth=2501a0cd05173db972566d1ce8c41def0e4bca7a40391710c1ca2957e3c4115f&width=980&height=640',
+    imagePost: "https://cdn.topgear.es/sites/navi.axelspringer.es/public/media/image/2017/09/chevrolet-camaro-zl1_2.jpg?tf=3840x",
     numberOfLikes: "1.000.000",
     description: ` 
-    Gracias, gracias a vos, gracias por hacerme la persona más feliz. Sos la razón por las cuales, mis mañanas son diferentes,
-    son especiales. Sos vos la que ilumina mi camino, y siempre esta ahí para apoyarme donde más necesito. Estas ahí para curar 
-    mis heridas, estas ahí para abrazarme y levantarme. Vos sos la persona más linda que conozco, y la que hizo cosas inimaginables
-    por mi. Prometo nunca olvidarme de cada detalle que hiciste por mi, y vamos a luchar para llegar muy lejos mi amor. Te amo Mucho, felices 2 añitos juntos
+    the best car in the world, chevrolet camaro zl1
     `,
     hours: "3",
-    verify: "",
+    verify: "/Icons/Icon Verify.svg",
   },
   {
     id: '8',
-    name: 'Paulo Dybala',
-    profileImage: 'https://www.cronica.com.ar/img/2022/03/18/paulo_dybala_1.jpg?__scale=w:1200,h:630,t:2',
-    imagePost: "/img/Post8.jpg",
-    numberOfLikes: "1.000.000",
+    name: 'Lionel Messi',
+    profileImage: 'https://www.lanacion.com.ar/resizer/v2/lionel-messi-marco-un-gol-en-su-primer-partido-3XGC2X5GTRFUVEOVXFYG5QW33M.jpeg?auth=87435fa6f9b1b5815206c195564768a4cdc2da225486174c2e75f3db217dcf5d&width=420&height=280&quality=70&smart=true',
+    imagePost: "https://media.elobservador.com.uy/p/2fafb1e2fb2a84b237c7c14bb8670220/adjuntos/362/imagenes/100/589/0100589431/1000x0/smart/la-reaccion-lionel-messi-los-hinchas-mexicanos.jfif",
+    numberOfLikes: "10",
     description: ` 
-    Feliz aniversario a la pareja más linda del mundo ❤️ Espero que la pasen genial, y disfruten mucho de su amor.
-    Muy feliz día para ustedes.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
     `,
     hours: "4",
     verify: "/Icons/Icon Verify.svg",
-  },
-  {
-    id: '7',
-    name: 'Tiziana Monzón',
-    profileImage: 'https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/420599396_1467172770526540_6401626036944713059_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHIAnbssqJ1YM57xw3PN-jU-JoY5IHVqrX4mhjkgdWqtbHlEN60BK2psZ94Z4A1YTPp8QPE0YR4-tbxoSN0rZYl&_nc_ohc=KKipdvrn0_oQ7kNvgESrStO&_nc_zt=23&_nc_ht=scontent.fcnq2-2.fna&_nc_gid=A0QF1dXuuthP3sz10rptF7U&oh=00_AYBymNVkFWrDoagVl4G8bWfjCmRKtZk0y4pXumW8KZXKsw&oe=67403C50',
-    imagePost: "/img/Post7.jpg",
-    numberOfLikes: "5.000.000",
-    description: ` 
-    Después de tantos días feos y tantos malos momentos, llegó el día de tu cumple y con nulas esperanzas de q algo pase, el milagro surgió y pudimos estar juntos para tu día tan especial y encima pasamos una noche re linda en family y con las personas que tanto querés. Espero pasar muchos cumpleaños y muchas fechas importantes mas juntitos, te amo un montón, felices 18 mi amor, sigamos construyendo nuestro futuro juntos y pasándola tan lindo como solo nosotros sabemos ❤️
-    `,
-    hours: "1",
-    verify: "/Icons/Icon Verify.svg",
-  },
-  {
-    id: '6',
-    name: 'Perez Elías',
-    profileImage: '/img/profileOgurazek.jpg',
-    imagePost: "/img/Post6.jpg",
-    numberOfLikes: "2.000",
-    description: ` 
-    La verdad el desayuno lo recordaba muchísimo más lindo jasjas, pero bueno. Fue algo muy especial y muy lindo de vivir.
-    Las medialunas y el juguito estaban ricos. Es algo humilde, yo lo sé, pero fue bastante hermoso 🥺. También
-    no quiero dejar de lado esa vez que prepare los sandwichitos y comimos en la plaza, tooppp desayunos de mi vida. Espero
-    verdaderamente, que esas cositas no se acaban nunca ❤️
-    `,
-    hours: "10",
-    verify: "",
-  },
-  {
-    id: '5',
-    name: 'Perez Elías',
-    profileImage: '/img/profileOgurazek.jpg',
-    imagePost: "/img/Post5.jpg",
-    numberOfLikes: "250.000",
-    description: ` 
-    "Todo va a estar bien" Suena tan simple, pero a la vez, por lo menos para mi, tiene un signficado gigante. 
-    Me trae un alivio, me devuelve el alma al cuerpo, hace que todos mis problemas por un momento desaparezcan y cuando vos
-    lo decís, es lo único que me puede calmar en mis momentos más tensos. Verdaderamente, para mi, no es solo un estar bien
-    es un sentimiento de seguridad, de tranquilidad y de mucho amor que me das. Y nadie nunca me hizo sentir así
-    con una simple frase 🥺❤️
-    `,
-    hours: "13",
-    verify: "",
-  },
-  {
-    id: '4',
-    name: 'Oriana Sabatini',
-    profileImage: 'https://assets.dev-filo.dift.io/img/2018/01/14/oriana_sq.jpg',
-    imagePost: "/Icons/Profile Image.jpg",
-    numberOfLikes: "250.000",
-    description: ` 
-    Con Paulo le mandamos muchísimos besos ya que nos enteramos de que ya falta muy poco para su aniversario ❤️
-    Espero que tengan una linda relación, y sepan cuidarse y amarse tanto como nosotros 😊 (Mensaje para Tizi ---> No te peles las cejas
-    como yo, te vas a arrepentir)
-    `,
-    hours: "13",
-    verify: "/Icons/Icon Verify.svg",
-  },
-  {
-    id: '3',
-    name: 'Perez Elías',
-    profileImage: '/img/profileOgurazek.jpg',
-    imagePost: "/img/Post3.jpg",
-    numberOfLikes: "2.000.000",
-    description: `La belleza que tenías ese día era inexplicable. Hasta me quedaba sin palabras cuando te vía.
-    estaba super nervioso, mi corazón latía a mil. Estabas vos ahí, con esa carita, con esos ojitos, con ese vestido
-    que tan hermoso te quedaba, con esos zapatos, con esas uñas y mil adjetivos más que te podría decir
-    . Eras, y sos la chica más hermosa, resaltabas tanto que tenía tanto miedo de que otro hombre te mirará. 
-    Vamos a la foto, era una foto que no recordaba que tenía, pero sin duda es una de mis fotos favoritas... Me trae muchos
-    sentimientos, y me trae a ese momento exacto, donde ibamos a pasar, y sin duda, como lo dije, y lo vuelvo a recalcar, ese momento
-     no se menciona mucho, pero esta en mi mente todos los días. 
-
-    `,
-    hours: "24",
-    verify: "",
-  },
-  {
-    id: '2',
-    name: 'Robert Pattinson',
-    profileImage: 'https://media.gq.com.mx/photos/61eae22d5def32c5619cf082/3:2/w_3000,h_2000,c_limit/GettyImages-1183868862.jpg',
-    imagePost: "/img/Post2.jpg",
-    numberOfLikes: "1.000.000",
-    description: `Le mando un muy feliz cumple a mi seguidora número 1. 
-    Me entere que ayer era el cumpleaños, y le quería felicitar y también por supuesto
-    a su novio, porque gracias a él me entere. 
-    Espero que la hayan pasado super, y que viva su amor por siempre ❤️. Voy a dejar una frase mía:
-
-    El amor es irracional, cuanto más quieres a alguien, menos lógica tiene todo. 
-    `,
-    hours: "1",
-    verify: "/Icons/Icon Verify.svg ",
-  },
-  {
-    id: '1',
-    name: 'Perez Elías',
-    profileImage: '/img/profileOgurazek.jpg',
-    imagePost: "/img/Post1.jpg",
-    numberOfLikes: "1.111.024",
-    description: `Feliz, feliz en tu día, mi Noviecita que dios te bendiga, que reine la paz en tus días y que vivas muchos más!! ❤️
-    Feliz cumpleaños a la persona que hace que cada día sea especial para mí, a quien logra sacar mi mejor versión y me hace el más feliz. 
-    No tengo suficientes palabras para agradecerte por permitirme estar a tu lado en un día tan especial. 
-    No sabes lo afortunado que me siento de estar con vos y cuánto valoro cada momento, cada sonrisa y cada muestra
-    de cariño.
-    Gracias por tu paciencia, por entenderme, por estar a mi lado aun en mis días difíciles y por darme tanto. Un millón de gracias a vos, Mi 
-    Tiziana Yazmín Monzón.
-    Te amo con todo mi corazón, y prometo cuidarte y estar siempre a tu lado. Vamos por muchos años más juntos, mi Princesa 👑😙
-    `,
-    hours: "5",
-    verify: "",
   },
 ];
 
