@@ -8,9 +8,9 @@ export function RightSideBar() {
         <>
             <article className={styles.container_art_main}>
                 <CardItem
-                    img='/Icons/Profile Image.jpg'
-                    name='Monzón Tiziana'
-                    username='tiziana_mnz'
+                    img='/img/imgProfile.png'
+                    name='Elías Pérez'
+                    username='Ogurazek'
                     subInfo='Cambiar'
                     verify=''
                 />
@@ -77,10 +77,10 @@ const suggestions = [
     },
     {
         id: "4",
-        name: "Jose Bullón",
-        username: "oblivion12",
+        name: "Mark Zuckerberg",
+        username: "markzuckerberg",
         subInfo: "Seguir",
-        img: "https://scontent.fcnq2-2.fna.fbcdn.net/v/t1.6435-1/51475071_2046929948694390_7587884151651434496_n.jpg?stp=dst-jpg_s200x200&_nc_cat=108&ccb=1-7&_nc_sid=e4545e&_nc_eui2=AeGk0SsoUmMJzw_27XA4MEWj16dyF5f0TLbXp3IXl_RMtv5eAMGOFKt7SnLUF2C0BAby4RlrzxA4wsr-gQHy4O-c&_nc_ohc=U7puoFx9J0cQ7kNvgEQuYTZ&_nc_zt=24&_nc_ht=scontent.fcnq2-2.fna&_nc_gid=A2oHnNtKnoXWWij3a1NdCMY&oh=00_AYAJ5hy3TtiafExhQomFWIPG40n18Y6qxxdpkw7ve-VF2w&oe=674713BE",
+        img: "https://assets.entrepreneur.com/content/3x2/2000/1736872453-mark-zuckerberg-0125-g-2019207157.jpg",
     },
     {
         id: "2",
@@ -100,9 +100,9 @@ const suggestions = [
     },
     {
         id: "5",
-        name: "Angelica Bullón",
-        username: "angelicabullon",
+        name: "Elon Musk",
+        username: "elonmusk",
         subInfo: "Seguir",
-        img: "/img/rightBarPicture.jpg",
+        img: "https://media.cnn.com/api/v1/images/stellar/prod/cnne-1755949-elon-musk.jpg?c=original",
     },
 ]

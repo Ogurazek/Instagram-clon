@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+# Instagram Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una réplica funcional de características clave de Instagram, como la publicación de posts y la visualización de historias. Está desarrollado utilizando **React.js**, **TypeScript**, **HTML**, **CSS** y el entorno de desarrollo **Vite**.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Funciones principales**:
 
-## Expanding the ESLint configuration
+  - **Publicar Posts**: Subir imágenes con descripciones.
+  - **Ver Historias**: Mostrar historias con un diseño circular y efectos similares a Instagram Stories.
+  - **Feed de Inicio**: Despliegue de publicaciones en un feed responsivo.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologías utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- **React.js**: Para la construcción de componentes interactivos.
+- **TypeScript**: Para un código más robusto y con tipado estático.
+- **Vite**: Como entorno de desarrollo rápido y moderno.
+- **HTML y CSS(Module)**: Para estructurar y estilizar el proyecto.
+- **Lucide**: Librería de iconos para enriquecer el diseño visual.
+- **Vercel**: Plataforma utilizada para el despliegue del proyecto.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Link del Proyecto
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Puedes ver el proyecto aquí ---> [https://instagram-clon-phi.vercel.app]
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Vista previa
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Pantallas principales
+
+1. **Página de Inicio (Feed)**:
+
+   - Vista de publicaciones de las personas seguidas.
+   - Barra superior con acceso a historias y un botón de publicación.
+
+2. **Visualización de Historias**:
+
+   - Animación de transición entre historias.
+
+3. **Perfil de Usuario**:
+
+   - Imagen de perfil, publicaciones y detalles básicos.
+
+4. **Publicar Post**:
+   - Subida de imágenes con previsualización y descripción.
+
+---
+
+## Autor
+
+Creado por Perez Elías. Puedes encontrarme en:
+
+- [LinkedIn](https://www.linkedin.com/in/elias-leonel-perez-8098b1284/)
+
+---

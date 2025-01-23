@@ -33,7 +33,7 @@ export function SideBar({ actualizarEstadoHome, actualizarEstadoModal }: sideBar
                     <ButtonNavigation name="Mensajes" icon="/Icons/Icon Messanger.svg" OnClick={handleClick} />
                     <ButtonNavigation name="Notificaciones" icon="/Icons/Icon Favourite.svg" OnClick={handleClick} />
                     <ButtonNavigation name="Crear" icon="/Icons/Icon more.svg" OnClick={handleClickModal} />
-                    <ButtonNavigation name="Perfil" icon="/Icons/Profile Image.jpg" OnClick={handleClick} />
+                    <ButtonNavigation name="Perfil" icon="/img/imgProfile.png" OnClick={handleClick} />
                     <section className={styles.section_menu}>
                         <ButtonNavigation name="Más" icon="/Icons/Icon Menu.svg" OnClick={handleClick} />
                     </section>
